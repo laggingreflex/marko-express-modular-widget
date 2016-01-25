@@ -1,0 +1,12 @@
+{
+  "name": "marko-express-modular-widget",
+  "version": "0.0.0",
+  "description": "Marko Express example with a modular click-count marko widget",
+  "main": "./server.js",
+  "dependencies": {
+    "express": "^4.13",
+    "marko": "^2.8",
+    "marko-widgets": "^5.2",
+    "serve-static": "^1.10"
+  }
+}
