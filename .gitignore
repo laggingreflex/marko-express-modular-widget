@@ -1,0 +1,10 @@
+static/
+.cache/
+*.marko.js
+node_modules/lasso/
+node_modules/lasso-marko/
+node_modules/express/
+node_modules/.bin/
+node_modules/marko/
+node_modules/marko-widgets/
+node_modules/serve-static/

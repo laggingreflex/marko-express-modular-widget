@@ -1,5 +1,5 @@
 {
   "dependencies": [
-    "require:click-count/browser.json"
+    "require: click-count/browser.json"
   ]
 }

@@ -5,6 +5,8 @@
   "main": "./server.js",
   "dependencies": {
     "express": "^4.13",
+    "lasso": "^1.13.4",
+    "lasso-marko": "^2.0.4",
     "marko": "^2.8",
     "marko-widgets": "^5.2",
     "serve-static": "^1.10"
