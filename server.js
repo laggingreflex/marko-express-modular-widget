@@ -21,3 +21,9 @@ const server = app.listen(8080, function() {
   console.log('Listening on localhost:8080');
 });
 const io = require('socket.io').listen(server);
+io.on('connection', function(socket){
+  console.log('Socket connected');
+  socket.on('msg', function(msg){
+    console.log('message received:', msg);
+  })
+});
