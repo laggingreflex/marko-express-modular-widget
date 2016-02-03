@@ -9,6 +9,8 @@
     "lasso-marko": "^2.0.4",
     "marko": "^2.8",
     "marko-widgets": "^5.2",
-    "serve-static": "^1.10"
+    "serve-static": "^1.10",
+    "socket.io": "^1.4",
+    "socket.io-client": "^1.4"
   }
 }

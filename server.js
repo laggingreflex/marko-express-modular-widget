@@ -17,6 +17,7 @@ app.get('/', function(req, res) {
 
 app.use('/static', express.static(__dirname + '/static'));
 
-app.listen(8080, function() {
+const server = app.listen(8080, function() {
   console.log('Listening on localhost:8080');
 });
+const io = require('socket.io').listen(server);
